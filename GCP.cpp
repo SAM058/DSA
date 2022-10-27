@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main()
+//use valid understanding naming conventions
+int gcd()
 {
     int Num1, Num2, i, GCD;
 
