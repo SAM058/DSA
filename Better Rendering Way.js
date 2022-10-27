@@ -14,10 +14,5 @@ function Articles(){
   if(isError){
     return <div>Error! {error.message}</div>
   }
-  return(
-    <div>
-      ...
-    </div>
-  )
 }
 export default Articles
