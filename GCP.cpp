@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int Num1, Num2, i, GCD;
+
+    printf("Please Enter two integer Values \n");
+    scanf("%d %d", &Num1, &Num2);
+
+   
+    printf("GCD of %d and %d is = %d", Num1, Num2, GCD);
+    return 0;
+}
