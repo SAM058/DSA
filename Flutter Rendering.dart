@@ -9,14 +9,14 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
           child: Column(
-       
+        children: <Widget>[
           condition? Text("True"): null,
           Container(
             height: 300,
             width: MediaQuery.of(context).size.width,
             child: Text("Test")
           )
-       
+        ].where(notNull).toList(),
       )),
     );
   }
